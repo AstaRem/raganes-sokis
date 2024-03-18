@@ -1,23 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import Navigacija from './components/Navigacija';
+// index.js or App.js
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container-fluid">
+          <header className="App-header row text-primary-emphasis" >
+            <div className="col-2">
+              <img src={logo} className="App-logo" alt="logo" />
+            </div>
+
+            <div className="col-10">
+               <Navigacija />
+            </div>
+          </header>
+
+      </div>
     </div>
   );
 }
