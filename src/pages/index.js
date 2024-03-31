@@ -1,12 +1,13 @@
 // Step 1: Import React
 import * as React from 'react'
+import Layout from '../components/layout'
 
 // Step 2: Define your component
 const IndexPage = () => {
   return (
     <main>
-      <h1>Welcome to Raganes Sokis website!</h1>
-      <p>I'm making this website with Gatsby.</p>
+      <Layout>Aciu, kad apsilankete Raganes sokio puslapyje!</Layout>
+      <p>Sveiki atvyke i aromatu, samoningumo ir gerio oaze.</p>
     </main>
   )
 }
