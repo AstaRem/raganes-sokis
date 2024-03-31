@@ -5,15 +5,15 @@ import Layout from '../components/layout'
 // Step 2: Define your component
 const IndexPage = () => {
   return (
-    <main>
-      <Layout>Aciu, kad apsilankete Raganes sokio puslapyje!</Layout>
-      <p>Sveiki atvyke i aromatu, samoningumo ir gerio oaze.</p>
-    </main>
+  
+      <Layout pageTitle="Pradzia">
+        <p>Sveiki apsilanke Raganes sokio puslapyje!</p>
+      </Layout>
+    
   )
 }
 
-// You'll learn about this in the next task, just copy it for now
-export const Head = () => <title>Home Page</title>
+// export const Head = () => <title>Pradzia</title>
 
-// Step 3: Export your component
+// Step 3: Export component
 export default IndexPage
