@@ -13,8 +13,7 @@ const Botaniniai = () => {
   )
 }
 
-// You'll learn about this in the next task, just copy it for now
-export const Head = () => <title>Botaniniai kevepalai</title>
+// export const Head = () => <title>Botaniniai kevepalai</title>
 
-// Step 3: Export your component
+// Step 3: Export component
 export default Botaniniai

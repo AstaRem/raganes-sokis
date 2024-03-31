@@ -7,13 +7,13 @@ const Imonems = () => {
   return (
   
       <Layout pageTitle="Imonems">
-        <p>Vedu kvepalu gimimo dirbruves imonese.</p>
+        <p>Vedu kvepalu gimimo dirbtuves imonese.</p>
       </Layout>
     
   )
 }
 
-export const Head = () => <title>Imonems</title>
+// export const Head = () => <title>Imonems</title>
 
 // Step 3: Export component
 export default Imonems

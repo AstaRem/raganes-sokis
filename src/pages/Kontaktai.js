@@ -7,7 +7,7 @@ const Kontaktai = () => {
   return (
   
       <Layout pageTitle="Kontaktai">
-        <p>Rasykite, skambinkite, atvykite:.</p>
+        <p>Rasykite, skambinkite, atvykite:</p>
       </Layout>
     
   )
