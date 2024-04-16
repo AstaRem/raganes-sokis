@@ -2,6 +2,9 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import { Helmet } from "react-helmet"
 import * as styles from "./layout.module.css"
+import bootstrap from "bootstrap"
+import Logo from "./Logo.js"
+
 
 const Layout = ({ pageTitle, children }) => {
   return (
@@ -9,8 +12,8 @@ const Layout = ({ pageTitle, children }) => {
         <Helmet>
             <title>{pageTitle}</title>
         </Helmet>
-        {/* <p className={styles.layoutText}>some text here</p> */}
-      <nav>
+        <Logo />
+        <nav>
         <ul >
           <li ><Link to="/">Pradžia</Link></li>
           <li><Link to="/Botaniniai">Botaniniai kvepalai</Link></li>
