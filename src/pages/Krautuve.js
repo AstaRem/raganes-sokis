@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 const Krautuve = () => {
   return (
   
-      <Layout pageTitle="Krautuve">
+      <Layout pageTitle="Krautuvė">
         <p>Čia galėsite įsigyti mano kūrinių.</p>
       </Layout>
     

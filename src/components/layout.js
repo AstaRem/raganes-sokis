@@ -5,7 +5,7 @@ import * as styles from "./layout.module.css"
 
 const Layout = ({ pageTitle, children }) => {
   return (
-    <div className = {`${styles.mainBackground} ${styles.layoutText}`} >
+    <body className = {styles.layoutText} >
         <Helmet>
             <title>{pageTitle}</title>
         </Helmet>
@@ -27,7 +27,7 @@ const Layout = ({ pageTitle, children }) => {
         <h1>{pageTitle}</h1>
         {children}
       </main>
-    </div>
+    </body>
   )
 }
 

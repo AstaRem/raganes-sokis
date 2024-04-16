@@ -6,7 +6,7 @@ import Layout from '../components/layout'
 const Imonems = () => {
   return (
   
-      <Layout pageTitle="Imonems">
+      <Layout pageTitle="Imonėms">
         <p>Vedu kvepalų gimimo dirbtuves imonėse.</p>
       </Layout>
     

@@ -1,7 +1,19 @@
-.mainBackground {
-    background-color: #d8cdba;
+:root {
+    --main-bg-color: #d8cdba;
+    --layout-text: #5d5d5c;
 }
 
+
+body {
+    background-color: var(--main-bg-color);
+
+}
+
+/* .mainBackground {
+    background-color: #d8cdba;
+
+} */
+
 .layoutText {
-    color: #5d5d5c;
+    color: var(--layout-text);
 }
