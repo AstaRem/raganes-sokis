@@ -7,7 +7,7 @@ const Krautuve = () => {
   return (
   
       <Layout pageTitle="Krautuve">
-        <p>Cia galesite isigyti mano kuriniu.</p>
+        <p>Čia galėsite įsigyti mano kūrinių.</p>
       </Layout>
     
   )

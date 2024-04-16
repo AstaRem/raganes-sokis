@@ -7,7 +7,7 @@ const IndexPage = () => {
   return (
   
       <Layout pageTitle="Pradzia">
-        <p>Sveiki apsilanke Raganes sokio puslapyje!</p>
+        <p>Sveiki apsilankę Raganės šokio puslapyje!</p>
       </Layout>
     
   )

@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 const Apie = () => {
   return (
     <Layout pageTitle="Apie mane">
-      <p>Esu kureja, vardu Inesa.  </p>
+      <p>Esu kūrėja, vardu Inesa.  </p>
     </Layout>
   )
 }

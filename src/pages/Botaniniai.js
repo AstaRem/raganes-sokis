@@ -7,7 +7,7 @@ const Botaniniai = () => {
   return (
   
       <Layout pageTitle="Botaniniai kvepalai">
-        <p>Kuriu botaninius kcepalus pagal individualius uzsakymus.</p>
+        <p>Kuriu botaninius kvepalus pagal individualius užsakymus.</p>
       </Layout>
     
   )

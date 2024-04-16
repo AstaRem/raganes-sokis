@@ -7,7 +7,7 @@ const Renginiai = () => {
   return (
   
       <Layout pageTitle="Renginiai">
-        <p>Organizuoju ir vedu siuos renginius:</p>
+        <p>Organizuoju ir vedu šiuos renginius:</p>
       </Layout>
     
   )

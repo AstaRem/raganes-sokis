@@ -7,7 +7,7 @@ const Imonems = () => {
   return (
   
       <Layout pageTitle="Imonems">
-        <p>Vedu kvepalu gimimo dirbtuves imonese.</p>
+        <p>Vedu kvepalų gimimo dirbtuves imonėse.</p>
       </Layout>
     
   )

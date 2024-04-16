@@ -12,11 +12,11 @@ const Layout = ({ pageTitle, children }) => {
         {/* <p className={styles.layoutText}>some text here</p> */}
       <nav>
         <ul >
-          <li ><Link to="/">Pradzia</Link></li>
+          <li ><Link to="/">Pradžia</Link></li>
           <li><Link to="/Botaniniai">Botaniniai kvepalai</Link></li>
           <li><Link to="/Renginiai">Renginiai</Link></li>
-          <li><Link to="/Krautuve">Krautuve</Link></li>
-          <li><Link to="/Imonems">Imonems</Link></li>
+          <li><Link to="/Krautuve">Krautuvė</Link></li>
+          <li><Link to="/Imonems">Įmonėms</Link></li>
           <li><Link to="/Blogas">Blogas</Link></li>
           <li><Link to="/Apie">Apie</Link></li>
           <li><Link to="/Kontaktai">Kontaktai</Link></li>

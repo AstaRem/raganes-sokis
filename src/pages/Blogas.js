@@ -7,7 +7,7 @@ const Blogas = () => {
   return (
   
       <Layout pageTitle="Blogas">
-        <p>Cia rasite mano dienorascio straipsnius.</p>
+        <p>Čia rasite mano dienoraščio straipsnius.</p>
       </Layout>
     
   )
