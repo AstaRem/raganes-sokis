@@ -1,11 +1,16 @@
 import * as React from 'react'
-import { StaticImage } from "gatsby-plugin-image"
+import raganesLogo from '../images/raganes_logo200.png'
 
-function Logo() {
+function Logo(props) {
+  const customStyle = {
+    width: "150px",
+    height:"150px"
+  }
   return (
-    <div>
-        <img src="/images/one.png" alt="round logo" />
-    </div>
+      <a href={props.to}>
+        <img src={raganesLogo} alt="round logo" style={customStyle} />
+      </a>
+    
   )
 }
 
