@@ -8,7 +8,7 @@ function Logo(props) {
   }
   return (
       <a href={props.to}>
-        <img src={raganesLogo} alt="round logo" style={customStyle} />
+        <img src={raganesLogo} alt="Raganės Šokis logo" style={customStyle} />
       </a>
     
   )

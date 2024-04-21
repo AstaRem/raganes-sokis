@@ -4,7 +4,7 @@ import * as styles from "./navigation.module.css"
 
 const Navigation = () => {
     return (
-        <div>
+        <div id={styles.navigationWrapper}>
             <nav >
                 <ul >
                     <li ><Link className="navItem" to="/">Pradžia</Link></li>
@@ -16,7 +16,6 @@ const Navigation = () => {
                     <li><Link className="navItem" to="/Apie">Apie</Link></li>
                     <li><Link className="navItem" to="/Kontaktai">Kontaktai</Link></li>
                 </ul>
-                <p id={styles.navigation}>Here is the paragraph.</p>
 
 
             </nav>
