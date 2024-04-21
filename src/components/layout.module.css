@@ -1,19 +1,25 @@
 :root {
     --main-bg-color: #d8cdba;
     --layout-text: #5d5d5c;
+    --navigation-font-size: 1.1rem;
 }
 
+
+    {/* site body. I am not using <body> tag, because gatsby uses it behind the scenes. using <div> for styling purposes. 
+    However, div still was not taking up the whole width for some reason, that's why I am targeting <body> tag, it solved the problem.*/}
 
 body {
     background-color: var(--main-bg-color);
-
+    color: var(--layout-text) ;
+    height: 100vh;
+    width:100vw;
+    padding: 0;
+    margin: 0;
 }
 
-/* .mainBackground {
-    background-color: #d8cdba;
-
+/* main {
+    width: 90%;
 } */
 
-.layoutText {
-    color: var(--layout-text);
-}
+
+
