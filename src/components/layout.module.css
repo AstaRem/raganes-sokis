@@ -2,13 +2,20 @@
     --main-bg-color: #d8cdba;
     --layout-text: #5d5d5c;
     --navigation-font-size: 1.1rem;
+    --content-background-color: #939878;
+    --content-text-color: white;
+    --body-fonts: 'Inter Variable', sans-serif;
+    --title-fonts: 'Mulish Variable', sans-serif;
 }
 
+/* google fonts */
+/* <weight>: Use a value from 100 to 900 */
 
     /* site body. I am not using <body> tag, because gatsby uses it behind the scenes. using <div> for styling purposes. 
     However, div still was not taking up the whole width for some reason, that's why I am targeting <body> tag, it solved the problem.*/
 
 body {
+    font-family: var(--body-fonts);
     background-color: var(--main-bg-color);
     color: var(--layout-text) ;
     height: 100vh;
@@ -20,8 +27,22 @@ body {
 header{
     display: flex;
     /* justify-content: space-around; */
-    width: 100vw;
 }
 
+main{
+    width: 100%;
+    color: var(--content-text-color);
+    background-color: var(--content-background-color);
+    margin:0 3rem 0 1rem;
+
+}
+
+.contentWrapper{
+    display: flex;
+}
+
+.pageTitle {
+    font-family: var(--title-fonts);
+}
 
 

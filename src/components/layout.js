@@ -4,17 +4,21 @@ import { Helmet } from "react-helmet"
 import * as styles from "./layout.module.css"
 import Logo from "./Logo.js"
 import Navigation from "./Navigation"
+// Supports weights 100-900
+import '@fontsource-variable/inter';
+// Supports weights 200-900
+import '@fontsource-variable/mulish';
 
 
 const Layout = ({ pageTitle, children }) => {
   return (
-    <div>
+    <div >
       {/* Site metadata */}
         <Helmet>
             <title>{pageTitle}</title>
         </Helmet>
 
-    {/* site body. not using <body> tag, because gatsby uses it behind the scenes. using <div> for styling purposes */}
+    {/* site body. I am not using <body> tag, because gatsby uses it behind the scenes. using <div> for styling purposes */}
     <div className = {styles.wholeBody} >
         <header>
             <Logo />
@@ -36,16 +40,19 @@ const Layout = ({ pageTitle, children }) => {
 
 
           </nav> */}
-
-          <main>
-            <h1>{pageTitle}</h1>
-            {children}
-          </main>
-
+         <div className={styles.contentWrapper}>
+         
+            <aside>Aside container here</aside>
+            <main >
+                <h1 className={styles.pageTitle}>{pageTitle}</h1>
+                {children}
+            </main>
+          </div> 
           <footer> Here is the footer</footer>
       </div>
 
     </div>
+
 
   )
 }
